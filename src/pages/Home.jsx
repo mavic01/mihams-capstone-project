@@ -25,14 +25,13 @@ const Home = () => {
         </div>
 
         <h2 className="max-w-4xl text-2xl font-bold font-sf leading-tight text-slate-900 md:text-4xl">
-          Manage Employees, Transactions & Business Operations
+          Manage Employees & Business Operations
           <span className="text-[#2ada53]"> From One Dashboard</span>
         </h2>
 
         <p className="mt-6 max-w-2xl text-lg font-sf text-slate-600">
-          Simplify employee management, monitor transactions in real-time, and
-          control your business settings with a clean and intuitive admin
-          dashboard.
+          Simplify employee management, transaction tracking, and business
+          settings with a seamless, intuitive experience.
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">

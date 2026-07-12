@@ -7,11 +7,12 @@ const RegisterStep3 = ({ step, firstName }) => {
     <div className="w-full max-w-md bg-white p-10 rounded-lg shadow-sm mt-20">
       <div className="space-y-4 flex flex-col items-center justify-center">
         <h2 className="font-sf font-medium text-[34px] text-center text-[#013C61] md:whitespace-nowrap">
-          Great to have you onboard
+          Welcome to <strong>Get</strong>change!
         </h2>
+
         <p className="font-sf text-[18px] text-center text-[#6A7E8A]">
-          Welcome aboard <strong>{firstName}</strong>.
-          
+          Thanks for signing up, <strong>{firstName}</strong>. Your account has
+          been created successfully.
         </p>
         <Link
           to="/login"
