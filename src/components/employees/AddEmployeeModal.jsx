@@ -125,7 +125,7 @@ const AddEmployeeModal = ({closeModal, handleAddEmployee, employeeData, handleEm
                 <button
                   type="submit"
                   disabled={addingEmployee}
-                  className={`bg-[#2BDA53] ${addingEmployee ? "opacity-50 cursor-not-allowed" : "cursor-pointer"} text-white text-[18px] font-sf px-6 py-2 rounded-sm font-medium`}
+                  className={`bg-[#2BDA53] ${addingEmployee ? "opacity-50 cursor-not-allowed text-sm" : "cursor-pointer"} text-white text-[18px] font-sf px-6 py-2 rounded-sm font-medium`}
                 >
                   {addingEmployee ? "Sending..." : "Send Invite"}
                 </button>

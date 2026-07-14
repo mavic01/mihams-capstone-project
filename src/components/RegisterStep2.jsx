@@ -99,7 +99,7 @@ const RegisterStep2 = ({
           <button
             type="submit"
             disabled={loading}
-            className="cursor-pointer ml-auto bg-[#2BDA53] hover:bg-green-600 text-white text-[18px] font-medium py-2 px-8 rounded-sm transition-colors mt-2"
+            className={`cursor-pointer ml-auto bg-[#2BDA53] hover:bg-green-600 text-white text-[18px] ${loading && "text-sm"} font-medium py-2 px-8 rounded-sm transition-colors mt-2`}
           >
             {loading ? "Creating account..." : "Finish"}
           </button>

@@ -176,9 +176,9 @@ const ForgotPassword = () => {
                     <button
                       type="submit"
                       disabled={loading}
-                      className={`bg-[#2BDA53] text-white py-2 px-12 rounded-sm ${
+                      className={`bg-[#2BDA53] text-white text-[18px] py-2 px-12 rounded-sm ${
                         loading
-                          ? "opacity-50 cursor-not-allowed"
+                          ? "opacity-50 cursor-not-allowed text-sm"
                           : "cursor-pointer hover:bg-green-600"
                       }`}
                     >

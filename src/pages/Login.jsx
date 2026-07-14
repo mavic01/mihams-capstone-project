@@ -219,7 +219,7 @@ const Login = () => {
                     <button
                       type="submit"
                       disabled={loading}
-                      className={`cursor-pointer ml-auto bg-[#2BDA53] text-white text-[18px] font-medium py-2 px-8 md:px-12 rounded-sm mt-2 ${loading ? "opacity-70 cursor-not-allowed" : "hover:bg-green-600"}`}
+                      className={`cursor-pointer ml-auto bg-[#2BDA53] text-white text-[18px] ${loading && "text-sm"} font-medium py-2 px-8 md:px-12 rounded-sm mt-2 ${loading ? "opacity-70 cursor-not-allowed" : "hover:bg-green-600"}`}
                     >
                       {loading ? "Signing in..." : "Sign In"}
                     </button>
