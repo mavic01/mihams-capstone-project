@@ -23,7 +23,7 @@ const Dashboard = () => {
           {activeTab === "employees" && <Employees />}
 
           {activeTab === "cards" && (
-            <div className="bg-white rounded p-10 font-sf font-bold">
+            <div className="bg-white text-[#013C61] rounded p-10 font-sf font-bold">
               Cards Feature Coming Soon...
             </div>
           )}
